@@ -5,6 +5,7 @@ const PIXEL_RATIO = PixelRatio.get();
 //设计稿配置
 const transformSize = (size: number) => {
     const { width } = Dimensions.get('window');
+
     return (size / UI_WIDTH) * width;
 };
 export default transformSize;
